@@ -2,7 +2,6 @@
 
 Send and receive short text messages over RF between Raspberry Pi units—no internet required! Ideal for off-grid communication, emergency alerts, or DIY messaging networks.
 
----
 
 ## 🚀 Features
 
@@ -13,7 +12,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
 - 📝 CLI interface—type messages, hit Enter to send  
 - ✂️ Minimal dependencies: `RPi.GPIO`, `pydantic`, RF library
 
----
 
 ## 🧰 Requirements
 
@@ -26,7 +24,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
   # and your RF library, e.g., git+https://github.com/your/rf_module
   ```
 
----
 
 ## 📦 File Structure
 
@@ -36,7 +33,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
 └── README.md        # This documentation
 ```
 
----
 
 ## ⚙️ Setup & Wiring
 
@@ -47,7 +43,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
    ```
 3. Launch a second Pi with `. --dest 1` to communicate back and forth.
 
----
 
 ## 🧠 How It Works
 
@@ -58,7 +53,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
 - **User Thread:** Terminal input pushes outgoing messages.  
 - 🛡️ **Graceful shutdown** via input command or Ctrl+C.
 
----
 
 ## 💡 Tips & Tweaks
 
@@ -67,7 +61,6 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
 - Add command shortcuts (e.g., `/who` to ping peers).  
 - Include retries or acknowledgments for reliability.
 
----
 
 ## 📶 Expansions
 
@@ -75,15 +68,3 @@ Send and receive short text messages over RF between Raspberry Pi units—no int
 - 🔊 Audio alerts for received messages  
 - 📦 Companion web UI  
 - 🖼️ SMS-like thread logging
-
----
-
-## 📜 License
-
-MIT License – feel free to use, modify, and share!
-
----
-
-## 🙌 Credits
-
-Built with ❤️ using Python & Raspberry Pi GPIO — thanks to the open-source RF library authors!
